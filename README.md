@@ -25,21 +25,17 @@ Servern körs som standard på http://localhost:3000.
 -------------------------------------------------------------------------------------------------
 ##🛠 API Endpoints
 
-###1. Filmer (Movies)
-   
-Metod  Endpoint                        Beskrivning                                    Statuskod
-GET    /api/movies                     Hämtar alla filmer.                             200 OK
------------------------------------------------------------------------------------------------
-GET    /api/movies/:id                 Hämtar en specifik film via dess unika ID.      200 / 404
------------------------------------------------------------------------------------------------
-POST   /api/movies                     Skapar en ny film.                              201 / 400
------------------------------------------------------------------------------------------------
-PUT    /api/movies/:id                 Uppdaterar en befintlig film helt/delvis.       200 / 404
------------------------------------------------------------------------------------------------
-DELETE/api/movies/:id                  Tar bort en film från listan.                   204 / 404
+### 1. Filmer (Movies)
 
------------------------------------------------------------------------------------------------
+| Metod | Endpoint            | Beskrivning                                      | Statuskod |
+|-------|----------------------|--------------------------------------------------|-----------|
+| GET   | /api/movies         | Hämtar alla filmer                               | 200 OK    |
+| GET   | /api/movies/:id     | Hämtar en specifik film via ID                   | 200 / 404 |
+| POST  | /api/movies         | Skapar en ny film                                | 201 / 400 |
+| PUT   | /api/movies/:id     | Uppdaterar en befintlig film                     | 200 / 404 |
+| DELETE| /api/movies/:id     | Tar bort en film                                 | 204 / 404 |
 
+------------------------------------------------------------------------------------------------
 ##🔍 Avancerade funktioner
 
 ###Sök & Filtrering
