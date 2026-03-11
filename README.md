@@ -86,18 +86,24 @@ JSON{
 *Ramverk: Express.js
 *Verktyg: Nodemon (för utveckling), Postman (för testning)
 
+-----------------------------------------------------------------
 
+##⚠️ Felhantering & Statuskoder
 
+API:et använder standardiserade HTTP-statuskoder för att indikera om ett anrop har lyckats eller misslyckats.
 
+Statuskoder som används:
+*200 OK: Anropet lyckades.
 
+*201 Created: En ny resurs har skapats (vid POST).
 
+*204 No Content: Resursen har tagits bort (vid DELETE).
 
+*400 Bad Request: Felaktig data skickades (t.ex. valideringsfel).
 
+*404 Not Found: Resursen eller ID:t hittades inte.
 
-
-
-
-
+------------------------------------------------------------------------
 
 
 
