@@ -3,8 +3,7 @@ const app = express();
 const PORT = 3000;
 app.use(express.json()); // Gör att vi kan läsa req.body
 
-// Din "databas"
-// Din uppdaterade "databas"
+// Din "databas (array)"
 let filmer = [
   {
     id: 1,
